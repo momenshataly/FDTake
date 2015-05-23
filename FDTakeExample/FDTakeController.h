@@ -59,7 +59,7 @@
 @property (nonatomic, unsafe_unretained) UIViewController *viewControllerForPresentingImagePickerController;
 @property (nonatomic, readwrite) CGRect popOverPresentRect; // used in presentPopoverFromRect on iPads
 @property (strong, nonatomic) UITabBar *tabBar;
-@property (strong, nonatomic) id *sender;//the sender object who initiated the media picking action e.g imageview/uibutton
+@property (nonatomic) id sender;//the sender object who initiated the media picking action e.g imageview/uibutton
 /**
  * Whether to allow editing the photo
  */
